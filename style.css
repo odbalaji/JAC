@@ -1,0 +1,57 @@
+.home-img{
+    height: 600px;
+    width: 100%;
+}
+.logo{
+    height: 90px;
+    width: 90px;
+}
+.button1{
+    background-color: rgb(239,191,44);
+}
+.p1{
+    margin-top: -450px;
+    color: white;
+    text-align: center;
+}
+.h1-one{
+    color: white;
+    text-align: center;
+}
+.img-1{
+   width: 150px;
+   height: 150px;
+   border-radius: 150px;
+   margin-top:-400px ;
+   margin-left: 50px;
+}
+.img-2{
+    width: 150px;
+   height: 150px;
+   border-radius: 150px;
+   margin-top:-250px ;
+   margin-left: 280px;
+}
+.img-3{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;  
+    margin-top:-350px ;
+    margin-left: 280px;
+}
+.img-4{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;  
+    margin-top:-350px ;
+    margin-left: 710px;
+}
+.img-5{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;  
+    margin-top:-650px ;
+    margin-left: 980px;  
+}
+
+
