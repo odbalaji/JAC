@@ -53,5 +53,16 @@
     margin-top:-650px ;
     margin-left: 980px;  
 }
+.img-6{
+    height: 550px;
+    width: 570px;
+}
+.img-7{
+    height: 240px;
+    width: 590px;
+    border-radius: 20px;
+    opacity: 0.9;
+    background-color: black;
+}
 
 
