@@ -57,12 +57,45 @@
     height: 550px;
     width: 570px;
 }
-.img-7{
-    height: 240px;
+.img-7 {
+    height: 266px;
+    width: 590px;
+    border-radius: 20px;
+    background :rgba(0,0,0,0.7)url(img-7.jpg);
+    background-attachment: fixed;
+    background-blend-mode: darken;
+}
+.img-8{
+    height: 266px;
     width: 590px;
     border-radius: 20px;
     opacity: 0.9;
-    background-color: black;
+    background-color: black;  
+    margin-top: 50px;
+    
 }
+.img-9{
+    height:168px ;
+    width: 557px;
+    filter: grayscale(100%);
+    border-radius: 20px;
+}
+.img-10{
+    height:168px ;
+    width: 557px;
+    filter: grayscale(100%);
+    border-radius: 20px; 
+    margin-top: 50px;
+}
+.img-11{
+    height:168px ;
+    width: 557px;
+    filter: grayscale(100%);
+    border-radius: 20px; 
+    margin-top: 50px;
+    
+    
+}  
+
 
 
