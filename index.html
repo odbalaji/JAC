@@ -16,6 +16,82 @@
       background-color: goldenrod;
       color: black;
     }
+    .text-container {
+      display : flex;
+    }
+    .column {
+      padding : 10px;
+      display : flex;
+    }
+    .separator-container {
+      display :flex;
+      align-items : center;
+      justify-content : center;
+    }
+    .separator {
+      flex-grow : 1;
+      height : 1px;
+      background-color : grey;
+      opacity : 0.4;
+    }
+    .separator-text {
+      padding : 0 10px;
+      white-space : nowrap;
+      color : goldenrod;
+    }
+    .containers {
+      display : flex;
+    }
+    .columns {
+      flex:1;
+      display : flex;
+      flex-direction : column;
+      justify-content : space-between;
+      margin : 0 10px;
+    }
+    .columns img {
+      object-fit : cover;
+    }
+    .card1 {
+      height : 280px;
+      width : 600px;
+      border-radius : 20px;
+      margin-left : 50px;
+    }
+    .card2 {
+      height : 170px;
+      width : 600px;
+      border-radius : 20px;
+    }
+    .card1 img {
+      height : 280px;
+      width : 600px;
+      border-radius : 20px;
+    }
+    .card2 img {
+      height : 170px;
+      width : 600px; 
+      border-radius : 20px;
+    }
+    .outer-card {
+      display : flex;
+      height : 100vh;
+      width : 100vw;
+      border : 1px solid #000;
+      box-sizing : border-box;
+    }
+    .inner-card {
+      flex : 0 0 30%;
+      border-right : 1px solid black;
+      box-sizing : border-box;
+      padding : 20px;
+      background-color : #5EBAA2;
+    }
+    .text-section {
+      flex : 1;
+      padding : 20px;
+      box-sizing : border-box;
+    }
     </style>
   </head>
   <body>
@@ -86,14 +162,72 @@
         <div class="row">
           <div class="col-md-6">
            <p style="text-align: left; color:grey;">The JCI Alumni Club (JAC) of JCI India is not just a club;it's a dynamic community of JCI India graduates who are dedicated to making a positive impact both in their local communities and beyond.Comprised of esteemed senior members of Junior Chamber International (JCI) India.JAC's primary mission is to connect JCI alumni and foster the continual growth and development of the JCI movement.</p>
-        </div>
+           <p style="text-align: left; color:grey;">As a member of JAC, You're not just joining a club;you're becoming a part of a vibrant community where collaboration thrives.Engage in innovative projects,share your knowledge and expertise, and connect with lik-minded individuals through avenues such as fellowship,travel,cultural exploration,and business networking.JAC is not just an alumni club,it's a support system that values lyour overall wellbeing,providing guidance in areas such as wealth management and personal development</p>
+           <p style="text-align: left; color:grey;">Through our diverse events and activities,you can reminisce about cherished memories,forge  new connections and build lasting friendships.Joining JAC means becoming a part of a community committed to creating positive change and supporting each other along the way.Our community is here to help you achieve our shared vision and make a meaningful impact.Join us and be a part of a community that is making a difference !</p>
+           <div class="row mt-3">
+            <div class="col">
+              <div class="text-container">
+                <i class="bi bi-bullseye" style="padding-right:10px; color:#0193D3; font-size:20px;"></i>
+                <span style="font-family: 'times new roman'; font-weight:bold;">Our Vision</span>
+              </div>
+              <p style="color:grey; margin-left:24px;">To be the foremost global network <br> of young leaders</p>
+            </div>
+            <div class="col">
+              <div class="text-container">
+                <i class="bi bi-eye" style="padding-right:10px; color:#0193D3; font-size:20px;"></i>
+                <span style="font-family: 'times new roman'; font-weight:bold;">Our Mission</span>
+              </div>
+              <p style="color:grey; margin-left:27px;">To provide leadership development opportunities that empower young people to create positive change. <br> of young leaders</p>
+            </div>
+           </div>
+          </div>
           <div class="col-md-6">
-            <img src="https://blackwhite.pictures/media/t/2009/achievement-adult-business-people-1715.jpg" height="400px" width="400px" style="border-radius: 15px; margin-left:50px; margin-top:20px;">
+            <img src="https://blackwhite.pictures/media/t/2009/achievement-adult-business-people-1715.jpg" height="600px" width="500px" style="border-radius: 15px; margin-left:60px; margin-top:20px;">
           </div>
       </div>
       </div>
       <br>
       <br>
+      <div class="separator-container">
+        <div class="separator"></div>
+        <div class="separator-text">Learn More About Us <span><i class="bi bi-arrow-up-right"></i></span></div>
+        <div class="separator"></div>
+      </div>
+      <br>
+      <br>
+      <h2 style="font-family:'times new roman'; text-align : center;">Area Of Opportunities</h2>
+      <br>
+      <div class="containers">
+        <div class="columns">
+          <div class="card1 mb-4">
+          <img src="https://media.licdn.com/dms/image/C5112AQFtLAxBJzlxzw/article-cover_image-shrink_720_1280/0/1582549871283?e=2147483647&v=beta&t=1kWC6nVoeBhtB2Nly1mQG0tkP7PhhBHsCQxeI-UAOO8">
+          </div>
+          <div class="card1">
+          <img src="https://media.istockphoto.com/id/1019702098/photo/group-of-business-people-in-the-conference-room.jpg?s=612x612&w=0&k=20&c=OW-jVI3h-WWrJ57-02a_hHNeOgTfRmiIePF30cyf6cI=">
+          </div>
+        </div>
+        <div class="columns">
+          <div class="card2">
+          <img src="https://media.istockphoto.com/id/557608509/photo/businesswoman-discussing-plan-with-colleagues.jpg?s=612x612&w=0&k=20&c=sqwJFYgTpiJW54ofQqdIgRrVGE69sLmxz2ebsTu-t0Y=" width="604px" height="9px">
+          </div>
+          <div class="card2">
+          <img src="https://media.istockphoto.com/id/828739292/photo/executives-making-a-joint-decision.jpg?s=612x612&w=0&k=20&c=mHt6tZxFXeNkSInuxGjgOAnrZFG3Ms963PuVg5FKZlA=">
+          </div>
+          <div class="card2">
+          <img src="https://media.istockphoto.com/id/1127197446/photo/business-team-at-work.jpg?s=612x612&w=0&k=20&c=J1luiopzrNSpljgLpngi8RuTBsu5-XKOJLCDiPpw55Y=">
+          </div>
+        </div>
+      </div>
+      <br>
+      <h2 style="font-family:'times new roman'; text-align : center;">Membership</h2>
+      <br>
+      <div class="outer-card">
+        <div class="inner-card">
+        </div>
+        <div class="text-section">
+
+        </div>
+      </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
