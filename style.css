@@ -61,15 +61,14 @@
     height: 266px;
     width: 590px;
     border-radius: 20px;
-    background :rgba(0,0,0,0.7)url(img-7.jpg);
-    background-attachment: fixed;
-    background-blend-mode: darken;
+    filter: grayscale(100%);
+   
 }
 .img-8{
     height: 266px;
     width: 590px;
     border-radius: 20px;
-    opacity: 0.9;
+   
     background-color: black;  
     margin-top: 50px;
     
@@ -79,6 +78,7 @@
     width: 557px;
     filter: grayscale(100%);
     border-radius: 20px;
+    object-fit:fill;
 }
 .img-10{
     height:168px ;
@@ -86,6 +86,7 @@
     filter: grayscale(100%);
     border-radius: 20px; 
     margin-top: 50px;
+    object-fit: cover;
 }
 .img-11{
     height:168px ;
@@ -93,6 +94,7 @@
     filter: grayscale(100%);
     border-radius: 20px; 
     margin-top: 50px;
+    object-fit: cover;
     
     
 }  
