@@ -8,14 +8,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
-      .btn-custom {
-      background-color: goldenrod;
-      color: black;
-    }
-    .btn-custom:hover{
-      background-color: goldenrod;
-      color: black;
-    }
     .text-container {
       display : flex;
     }
@@ -75,26 +67,111 @@
     }
     .outer-card {
       display : flex;
-      height : 100vh;
-      width : 100vw;
-      border : 1px solid #000;
+      height : 300px;
+      width : 1200px;
       box-sizing : border-box;
+      margin-left : 60px;
+      margin-right : 50px;
+      border-radius : 15px;
+      overflow :hidden;
     }
     .inner-card {
-      flex : 0 0 30%;
-      border-right : 1px solid black;
+      flex : 0 0 10%;
       box-sizing : border-box;
       padding : 20px;
-      background-color : #5EBAA2;
+      border-radius : 1500px;
+      padding : 300px;
+      margin-top : -150px;
+      height : 278px;
+      padding-left: 200px;
+      width : 580px;
+      left : -50%;
+      border-bottom-right-radius: 500px;
+      border-top-left-radius: 100px;
+      border-bottom-left-radius : 100px;
     }
-    .text-section {
-      flex : 1;
+    .column {
+      flex:1;
+      display : flex;
+      flex-direction : column;
+      align-items : center;
       padding : 20px;
       box-sizing : border-box;
     }
+    .columnss {
+      flex:1;
+      display : flex;
+      flex-direction : column;
+      align-items : left;
+      padding : 20px;
+      box-sizing : border-box;
+    }
+    .btn-custom {
+      background-color: #0093D4;
+      color: white;
+    }
+    .btn-custom:hover {
+      background-color: #0093D4;
+      color: white;
+    }
+    .btn-cust {
+      background-color: #5EBAA2;
+      color: white;
+    }
+    .btn-cust:hover {
+      background-color: #5EBAA2;
+      color: white;
+    }
+    .btn-c {
+      background-color: goldenrod;
+      color: black;
+    }
+    .btn-c:hover {
+      background-color: goldenrod;
+      color: black;
+    }
+    .button-container {
+      display : flex;
+    }
+    .btn-c1 {
+      background-color: #5EBAA2;
+      color: white;
+      border-color: white;
+    }
+    .btn-c2 {
+      background-color: #EFBF2C;
+      color: white;
+      border-color: white;
+    }
+    .btn-c3 {
+      background-color: #0093D4;
+      color: white;
+      border-color: white;
+    }
+    .btn-cus:hover {
+      background-color: goldenrod;
+      color: black;
+    }
+    .go-top-btn {
+    position : fixed;
+    bottom : 35px;
+    right: 35px;
+    border-radius : 50%;
+    cursor : pointer;
+    height : 50px;
+    width : 50px;
+    background : white;
+    border : 3px solid grey;
+    justify-content : center;
+    align-items : center; 
+    display : flex;
+   }
     </style>
   </head>
   <body>
+    <div class="go-top-btn">
+        <i class="bi bi-chevron-up"></i>
+      </div>
     <div class="container-fluid">
         <div class="row" style="padding-bottom:50px;">
             <img src="https://t3.ftcdn.net/jpg/04/06/90/44/360_F_406904452_C1NlUmGF5C8OuXY8uk573XlEWQP13gS6.jpg" style="width:100%; height:500px;">
@@ -138,10 +215,10 @@
                             <a class="nav-link" href="#">Contact</a>
                           </li>
                         </ul>
-                        <button type="submit" class="btn btn-custom">Become member</button>
+                        <button type="submit" class="btn btn-c">Become member</button>
                       </div>
                     </div>
-                  </nav>
+                </nav>
                   <h5 style="color:grey; font-family: 'times new roman'; text-align: center; margin-top : -350px;">Welcome to JCI Alumni Club (JAC)</h5>
                   <h2 style="color:grey; font-weight: bold; font-family: 'times new roman'; text-align: center; margin-top : -310px;">' Your Gateway to Impactful Connections and Growth '</h2>
                   <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
@@ -156,78 +233,466 @@
               </div>   
         </div>
     </div>
+    <br>
     <h3 style="font-family : 'times new roman'; padding-left : 90px; margin-top : -650px;"><b>About JAC (JCI Alumni Club)</b> - An Initiative from JCI India</h3>
     <br>
     <div class="container">
-        <div class="row">
-          <div class="col-md-6">
+    <div class="row">
+        <div class="col-md-6">
            <p style="text-align: left; color:grey;">The JCI Alumni Club (JAC) of JCI India is not just a club;it's a dynamic community of JCI India graduates who are dedicated to making a positive impact both in their local communities and beyond.Comprised of esteemed senior members of Junior Chamber International (JCI) India.JAC's primary mission is to connect JCI alumni and foster the continual growth and development of the JCI movement.</p>
            <p style="text-align: left; color:grey;">As a member of JAC, You're not just joining a club;you're becoming a part of a vibrant community where collaboration thrives.Engage in innovative projects,share your knowledge and expertise, and connect with lik-minded individuals through avenues such as fellowship,travel,cultural exploration,and business networking.JAC is not just an alumni club,it's a support system that values lyour overall wellbeing,providing guidance in areas such as wealth management and personal development</p>
            <p style="text-align: left; color:grey;">Through our diverse events and activities,you can reminisce about cherished memories,forge  new connections and build lasting friendships.Joining JAC means becoming a part of a community committed to creating positive change and supporting each other along the way.Our community is here to help you achieve our shared vision and make a meaningful impact.Join us and be a part of a community that is making a difference !</p>
            <div class="row mt-3">
-            <div class="col">
-              <div class="text-container">
-                <i class="bi bi-bullseye" style="padding-right:10px; color:#0193D3; font-size:20px;"></i>
-                <span style="font-family: 'times new roman'; font-weight:bold;">Our Vision</span>
-              </div>
-              <p style="color:grey; margin-left:24px;">To be the foremost global network <br> of young leaders</p>
+               <div class="col">
+                 <div class="text-container">
+                    <i class="bi bi-bullseye" style="padding-right:10px; color:#0193D3; font-size:20px;"></i>
+                    <span style="font-family: 'times new roman'; font-weight:bold;">Our Vision</span>
+                 </div>
+                 <p style="color:grey; margin-left:24px;">To be the foremost global network <br> of young leaders</p>
+               </div>
+               <div class="col">
+                  <div class="text-container">
+                    <i class="bi bi-eye" style="padding-right:10px; color:#0193D3; font-size:20px;"></i>
+                    <span style="font-family: 'times new roman'; font-weight:bold;">Our Mission</span>
+                  </div>
+                  <p style="color:grey; margin-left:27px;">To provide leadership development opportunities that empower young people to create positive change. <br> of young leaders</p>
+                </div>
             </div>
-            <div class="col">
-              <div class="text-container">
-                <i class="bi bi-eye" style="padding-right:10px; color:#0193D3; font-size:20px;"></i>
-                <span style="font-family: 'times new roman'; font-weight:bold;">Our Mission</span>
-              </div>
-              <p style="color:grey; margin-left:27px;">To provide leadership development opportunities that empower young people to create positive change. <br> of young leaders</p>
-            </div>
-           </div>
-          </div>
-          <div class="col-md-6">
+        </div>
+        <div class="col-md-6">
             <img src="https://blackwhite.pictures/media/t/2009/achievement-adult-business-people-1715.jpg" height="600px" width="500px" style="border-radius: 15px; margin-left:60px; margin-top:20px;">
-          </div>
-      </div>
-      </div>
-      <br>
-      <br>
-      <div class="separator-container">
+        </div>
+    </div>
+    </div>
+    <br>
+    <br>
+    <div class="separator-container">
         <div class="separator"></div>
         <div class="separator-text">Learn More About Us <span><i class="bi bi-arrow-up-right"></i></span></div>
         <div class="separator"></div>
-      </div>
-      <br>
-      <br>
-      <h2 style="font-family:'times new roman'; text-align : center;">Area Of Opportunities</h2>
-      <br>
-      <div class="containers">
+    </div>
+    <br>
+    <br>
+    <h2 style="font-family:'times new roman'; text-align : center;">Area Of Opportunities</h2>
+    <br>
+    <div class="containers">
         <div class="columns">
           <div class="card1 mb-4">
-          <img src="https://media.licdn.com/dms/image/C5112AQFtLAxBJzlxzw/article-cover_image-shrink_720_1280/0/1582549871283?e=2147483647&v=beta&t=1kWC6nVoeBhtB2Nly1mQG0tkP7PhhBHsCQxeI-UAOO8">
+             <img src="https://media.licdn.com/dms/image/C5112AQFtLAxBJzlxzw/article-cover_image-shrink_720_1280/0/1582549871283?e=2147483647&v=beta&t=1kWC6nVoeBhtB2Nly1mQG0tkP7PhhBHsCQxeI-UAOO8">
           </div>
           <div class="card1">
-          <img src="https://media.istockphoto.com/id/1019702098/photo/group-of-business-people-in-the-conference-room.jpg?s=612x612&w=0&k=20&c=OW-jVI3h-WWrJ57-02a_hHNeOgTfRmiIePF30cyf6cI=">
+            <img src="https://media.istockphoto.com/id/1019702098/photo/group-of-business-people-in-the-conference-room.jpg?s=612x612&w=0&k=20&c=OW-jVI3h-WWrJ57-02a_hHNeOgTfRmiIePF30cyf6cI=">
           </div>
         </div>
         <div class="columns">
           <div class="card2">
-          <img src="https://media.istockphoto.com/id/557608509/photo/businesswoman-discussing-plan-with-colleagues.jpg?s=612x612&w=0&k=20&c=sqwJFYgTpiJW54ofQqdIgRrVGE69sLmxz2ebsTu-t0Y=" width="604px" height="9px">
+            <img src="https://media.istockphoto.com/id/557608509/photo/businesswoman-discussing-plan-with-colleagues.jpg?s=612x612&w=0&k=20&c=sqwJFYgTpiJW54ofQqdIgRrVGE69sLmxz2ebsTu-t0Y=" width="604px" height="9px">
           </div>
           <div class="card2">
-          <img src="https://media.istockphoto.com/id/828739292/photo/executives-making-a-joint-decision.jpg?s=612x612&w=0&k=20&c=mHt6tZxFXeNkSInuxGjgOAnrZFG3Ms963PuVg5FKZlA=">
+            <img src="https://media.istockphoto.com/id/828739292/photo/executives-making-a-joint-decision.jpg?s=612x612&w=0&k=20&c=mHt6tZxFXeNkSInuxGjgOAnrZFG3Ms963PuVg5FKZlA=">
           </div>
           <div class="card2">
-          <img src="https://media.istockphoto.com/id/1127197446/photo/business-team-at-work.jpg?s=612x612&w=0&k=20&c=J1luiopzrNSpljgLpngi8RuTBsu5-XKOJLCDiPpw55Y=">
+            <img src="https://media.istockphoto.com/id/1127197446/photo/business-team-at-work.jpg?s=612x612&w=0&k=20&c=J1luiopzrNSpljgLpngi8RuTBsu5-XKOJLCDiPpw55Y=">
           </div>
         </div>
-      </div>
-      <br>
-      <h2 style="font-family:'times new roman'; text-align : center;">Membership</h2>
-      <br>
-      <div class="outer-card">
-        <div class="inner-card">
+    </div>
+    <br>
+    <h2 style="font-family:'times new roman'; text-align : center;">Membership</h2>
+    <br>
+    <div class="outer-card" style=" border : 1px solid #5EBAA2;">
+        <div class="inner-card"  style="background-color:#5EBAA2; border-right : 1px solid #5EBAA2;">
+          <p style="color : white; font-size : 20px; font-family: 'times new roman'; margin-top : -23px;">New Membership</p>
+          <button class="btn btn-c1" style="width:150px;"><span style="margin-left:5px;">Apply Now</span> <i class="bi bi-arrow-right"></i></button>
         </div>
         <div class="text-section">
-
+            <p style="font-size : 12px; padding-top : 30px;">JCI Alumni club will be a nationwide body of all senior members.This forum will work under the supervision and guidance of the national governing board.It shall endeavor to support the membership growth of JCI India from time to time and will function under the national governing board with governing rules.</p>
+            <p style="font-size : 12px;"><b>Given below are the criteria to join JCI Alumni Club;</b></p>
+          <div class="text-container">
+             <i class="bi bi-x-diamond-fill" style="padding-right:10px; color:#5EBAA2; font-size:10px;"></i>
+             <span style="font-size : 12px;">Any individual with more than 40 years of age can apply.</span>
+          </div>
+          <div class="text-container">
+             <i class="bi bi-x-diamond-fill" style="padding-right:10px; color:#5EBAA2; font-size:10px;"></i>
+             <span style="font-size : 12px;">Former member of JCI India who has been as a member of any local JCI organization.</span>
+          </div>
+          <div class="text-container">
+              <i class="bi bi-x-diamond-fill" style="padding-right:10px; color:#5EBAA2; font-size:10px;"></i>
+              <span style="font-size : 12px;">Membership is by application only.</span>
+          </div>
+          <div class="text-container">
+              <i class="bi bi-x-diamond-fill" style="padding-right:10px; color:#5EBAA2; font-size:10px;"></i>
+              <span style="font-size : 12px;">An annual fee or life membership fee is payable on application.</span>
+          </div>
         </div>
-      </div>
+    </div>
+    <br>
+    <div class="outer-card" style=" border : 1px solid #EFBF2C;">
+        <div class="inner-card"  style="background-color:#EFBF2C; border-right : 1px solid #EFBF2C; ">
+          <p style="text-align : center; color : white; font-size : 20px; font-family: 'times new roman'; margin-top : -23px;">Life Membership</p>
+          <button class="btn btn-c2" style="width:150px;"><span style="margin-left:5px;">Apply Now</span> <i class="bi bi-arrow-right"></i></button>
+        </div>
+        <div class="text-section">
+           <p style="font-size : 12px; padding-top : 30px;">JCI Alumni club will be a nationwide body of all senior members.This forum will work under the supervision and guidance of the national governing board.It shall endeavor to support the membership growth of JCI India from time to time and will function under the national governing board with governing rules.</p>
+           <p style="font-size : 12px;"><b>Given below are the criteria to join JCI Alumni Club;</b></p>
+        <div class="text-container">
+           <i class="bi bi-x-diamond-fill" style="padding-right:10px; color:#EFBF2C; font-size:10px;"></i>
+           <span style="font-size : 12px;">Any individual with more than 40 years of age can apply.</span>
+        </div>
+        <div class="text-container">
+           <i class="bi bi-x-diamond-fill" style="padding-right:10px; color:#EFBF2C; font-size:10px;"></i>
+           <span style="font-size : 12px;">Former member of JCI India who has been as a member of any local JCI organization.</span>
+        </div>
+        <div class="text-container">
+            <i class="bi bi-x-diamond-fill" style="padding-right:10px; color:#EFBF2C;font-size:10px;"></i>
+            <span style="font-size : 12px;">Membership is by application only.</span>
+        </div>
+        <div class="text-container">
+            <i class="bi bi-x-diamond-fill" style="padding-right:10px; color:#EFBF2C; font-size:10px;"></i>
+            <span style="font-size : 12px;">An annual fee or life membership fee is payable on application.</span>
+        </div>
+        </div>
+    </div>
+    <br>
+    <div class="outer-card" style=" border : 1px solid #0093D4">
+        <div class="inner-card"  style="background-color:#0093D4; border-right : 1px solid #0093D4;">
+           <p style="text-align : center; color : white; font-size : 20px; font-family: 'times new roman'; margin-top : -23px;">Renewal Membership</p>
+           <button class="btn btn-c3" style="width:150px;"><span style="margin-left:5px;">Apply Now</span> <i class="bi bi-arrow-right"></i></button>
+        </div>
+        <div class="text-section">
+          <p style="font-size : 12px; padding-top : 30px;">JCI Alumni club will be a nationwide body of all senior members.This forum will work under the supervision and guidance of the national governing board.It shall endeavor to support the membership growth of JCI India from time to time and will function under the national governing board with governing rules.</p>
+          <p style="font-size : 12px;"><b>Given below are the criteria to join JCI Alumni Club;</b></p>
+        <div class="text-container">
+          <i class="bi bi-x-diamond-fill" style="padding-right:10px; color:#0093D4; font-size:10px;"></i>
+          <span style="font-size : 12px;">Any individual with more than 40 years of age can apply.</span>
+        </div>
+        <div class="text-container">
+            <i class="bi bi-x-diamond-fill" style="padding-right:10px; color:#0093D4; font-size:10px;"></i>
+            <span style="font-size : 12px;">Former member of JCI India who has been as a member of any local JCI organization.</span>
+        </div>
+        <div class="text-container">
+            <i class="bi bi-x-diamond-fill" style="padding-right:10px; color:#0093D4; font-size:10px;"></i>
+            <span style="font-size : 12px;">Membership is by application only.</span>
+        </div>
+        <div class="text-container">
+            <i class="bi bi-x-diamond-fill" style="padding-right:10px; color:#0093D4; font-size:10px;"></i>
+            <span style="font-size : 12px;">An annual fee or life membership fee is payable on application.</span>
+        </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <h2 style="font-family:'times new roman'; text-align :left; margin-left :55px;">Honorary members</h2>
+    <p style="margin-right:550px; font-size : 12px; margin-left :55px;">JCI alumni club will be a nationwide body of all senior members.This forum will work under the supervision and guidance of the National Governing Board.It shall endeavor to support the membership growth of JCI India, from time to time and will function under the National Governing Board with governing rules.</p>
+    <div class="container mt-5">
+        <div class="row">
+         <div class="col-md-4">
+            <div class="card card-custom" style="background-color:white; width:300px; margin-left:20px;">
+                <img src="jac2.png" height="300px" width="290px">
+                <br>
+                <div style="display:flex;">
+                  <p style="padding-left:10px;"><b>JFS R Anbazhagan</b></p>
+                  <i class="bi bi-arrow-up-right" style="margin-left:120px; font-size : 20px;"></i>
+                </div>
+                <p style="font-size:12px; padding-left:10px;">Honorary Member</p>          
+            </div>
+         </div>
+        <div class="col-md-4">
+            <div class="card card-custom" style="background-color:white; width:300px; margin-left:20px;" >
+                <img src="jac2.png" height="300px" width="290px">
+                <br>
+                <div style="display:flex;">
+                  <p style="padding-left:10px;"><b>JFS R Anbazhagan</b></p>
+                  <i class="bi bi-arrow-up-right" style="margin-left:120px; font-size : 20px;"></i>
+                </div>
+                <p style="font-size:12px; padding-left:10px;">Honorary Member</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-custom" style="background-color:white; width:300px; margin-left:20px;">
+                <img src="jac2.png" height="300px" width="290px">
+                <br>
+                <div style="display:flex;">
+                  <p style="padding-left:10px;"><b>JFS R Anbazhagan</b></p>
+                  <i class="bi bi-arrow-up-right" style="margin-left:120px; font-size : 20px;"></i>
+                </div>
+                <p style="font-size:12px; padding-left:10px;">Honorary Member</p>
+            </div>
+        </div>
+       </div>
+    </div>
+    <br>
+    <br>
+    <div class="card" style="width:1000px; height:800px; background-color : white; margin-left:140px; ">
+        <br>
+          <h2 style="font-family:'times new roman'; text-align :center; ">Message from Our National Chairman</h2>
+          <br>
+            <div class="row">
+             <div class="column">
+               <img src="jac.png">
+               <h5 style="font-family:'times new roman';">Mr.JFS R Anbazhagan</h5>
+               <p  style="text-align :center;">National Chairman,JAC 2024</p>
+             </div>
+             <div class="columnss">
+              <p >Dear Esteemed JAC Members</p>
+              <p >Greetings to you ! </p>
+              <p>As I begin my journey as the national chairman of JAC 2024, I eagerly look forward to the exciting path that lies ahead.Our mission is to pave the way for significant change embodied in the four pillars of reconnecting,recognising,rejoicing,and reflecting.</p>
+              <p>At the forefront of our priorities is the cultivation of reconnection among our diverse graduates,fortifying the bonds that unite our JAC community. It is imperative that we celebrate the achievements of our distinguished alumni,acknowledging the profound impact they have on the organisation and the society at large.</p>
+              <p>JAC remains steadfast in its commitment to fostering positive change by addressing societal concerns and actively participating in cultural activities.As a cohesive team,our objective is to stride forward,aiming for transformative achievements with 10,000 members and substantial contributions to society as our next milestones.</p>
+              <p>As we embark on this collective journey,I extend my heartfelt wishes for a year filled with meaningful accomplishments.Together,let us collaboratively shape the future of JAC.</p>
+             </div>
+            </div>
+    </div>
+    <br>
+    <h2 style="font-family:'times new roman'; text-align :left; margin-left :55px;">Privilege members</h2>
+    <p style="margin-right:550px; font-size : 12px; margin-left :55px;">JCI alumni club will be a nationwide body of all senior members.This forum will work under the supervision and guidance of the National Governing Board.It shall endeavor to support the membership growth of JCI India, from time to time and will function under the National Governing Board with governing rules.</p>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card card-custom" style="background-color:white; width:300px; margin-left:20px;">
+                 <img src="jac1.png" height="300px" width="290px">
+                 <br>
+                 <div style="display:flex;">
+                   <p style="padding-left:10px;"><b>JFS R Anbazhagan</b></p>
+                   <i class="bi bi-arrow-up-right" style="margin-left:120px; font-size : 20px;"></i>
+                 </div>
+                 <p style="font-size:12px; padding-left:10px;">Honorary Member</p>          
+                </div>
+            </div>
+            <div class="col-md-4">
+               <div class="card card-custom" style="background-color:white; width:300px; margin-left:20px;" >
+                  <img src="jac1.png" height="300px" width="290px">
+                  <br>
+                  <div style="display:flex;">
+                    <p style="padding-left:10px;"><b>JFS R Anbazhagan</b></p>
+                    <i class="bi bi-arrow-up-right" style="margin-left:120px; font-size : 20px;"></i>
+                  </div>
+                  <p style="font-size:12px; padding-left:10px;">Honorary Member</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+               <div class="card card-custom" style="background-color:white; width:300px; margin-left:20px;">
+                 <img src="jac1.png" height="300px" width="290px">
+                 <br>
+                 <div style="display:flex;">
+                   <p style="padding-left:10px;"><b>JFS R Anbazhagan</b></p>
+                   <i class="bi bi-arrow-up-right" style="margin-left:120px; font-size : 20px;"></i>
+                 </div>
+                 <p style="font-size:12px; padding-left:10px;">Honorary Member</p>
+               </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <h2 style="font-family:'times new roman'; text-align :center;">Events</h2>
+    <br>
+    <div class="container mt-5">
+      <ul class="nav nav-underline justify-content-center">
+          <li class="nav-item">
+              <a class="nav-link active" id="tab-one" data-toggle="tab" href="#content-one" role="tab" aria-controls="content-one" aria-selected="true" style="color:grey; margin-right:10px;" ><b>All</b></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" id="tab-two" data-toggle="tab" href="#content-two" role="tab" aria-controls="content-two" aria-selected="false" style="color:grey;"><b>Upcoming</b></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" id="tab-three" data-toggle="tab" href="#content-three" role="tab" aria-controls="content-three" aria-selected="false" style="color:grey;"><b>Completed</b></a>
+          </li>
+       </ul>
+       <br>
+       <br>
+       <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="content-one" role="tabpanel" aria-labelledby="tab-one">
+           <div class="card" style="width:1000px; height:300px; background-color : white; margin-left:60px; ">
+            <br>
+              <div class="row">
+                <div class="columnss">
+                  <span style="background-color:#ECECEC; width:130px; border-radius : 15px; margin-top:-10px;"><i class="bi bi-calendar3"></i> <span>coming soon</span></span> 
+                  <br>
+                  <p><b>JAC India Membership Meet 2024</b></p>
+                  <p style="font-size : 12px;">JCI Alumni club will be a nationwide body of all senior members.This forum will work under the supervision and guidance of the national governing board.It shall endeavor to support the membership growth of JCI India from time to time and will function under the national governing board with governing rules.</p>
+                  <br>
+                  <button class="btn btn-custom" style="margin-right:280px;"><i class="bi bi-download"></i><span style="margin-left:5px;">Download Brochure</span></button>
+                  <br>
+                </div>
+                <div class="column">
+                 <img src="jac3.png" style="margin-top:-10px;">
+                 <br>
+                </div>
+              </div>
+          </div>
+          <br>
+          <div class="card" style="width:1000px; height:300px; background-color : white; margin-left:60px; ">
+            <br>
+            <div class="row">
+              <div class="columnss">
+                <span style="background-color:#ECECEC; width:130px; border-radius : 15px; margin-top:-10px;"><i class="bi bi-calendar3"></i> <span>July 24,2004</span></span> 
+                <br>
+                <p><b>JAC India Membership Meet 2024</b></p>
+                <p style="font-size : 12px;">JCI Alumni club will be a nationwide body of all senior members.This forum will work under the supervision and guidance of the national governing board.It shall endeavor to support the membership growth of JCI India from time to time and will function under the national governing board with governing rules.</p>
+                <br>
+                <div class="button-container">
+                   <button class="btn btn-custom" style="margin-right:10px;"><i class="bi bi-download"></i><span style="margin-left:5px;">Download Brochure</span></button>
+                   <button class="btn btn-cust"><i class="bi bi-arrow-right"></i><span style="margin-left:5px;">Register now</span></button>
+                </div>
+                <br>
+              </div>
+              <div class="column">
+               <img src="jac3.png" style="margin-top:-10px;">
+               <br>
+              </div>
+            </div>
+           </div>
+          <br>
+          <div class="card" style="width:1000px; height:300px; background-color : white; margin-left:60px; ">
+          <br>
+          <div class="row">
+            <div class="columnss">
+               <span style="background-color:#ECECEC; width:130px; border-radius : 15px; margin-top:-10px;"><i class="bi bi-calendar3"></i> <span>July 24,2004</span></span> 
+               <br>
+               <p><b>JAC India Membership Meet 2024</b></p>
+               <p style="font-size : 12px;">JCI Alumni club will be a nationwide body of all senior members.This forum will work under the supervision and guidance of the national governing board.It shall endeavor to support the membership growth of JCI India from time to time and will function under the national governing board with governing rules.</p>
+               <br>
+              <div class="button-container">
+                 <button class="btn btn-custom" style="margin-right : 10px;"><i class="bi bi-download"></i><span style="margin-left:5px;">Download Brochure</span></button>
+                 <button class="btn btn-cust"><i class="bi bi-arrow-right"></i><span style="margin-left:5px;">Register now</span></button>
+              </div>
+              <br>
+            </div>
+            <div class="column">
+              <img src="jac3.png" style="margin-top:-10px;">
+              <br>
+           </div>
+          </div>
+         </div>
+         <br>
+        </div>
+         <div class="tab-pane fade" id="content-two" role="tabpanel" aria-labelledby="tab-two">
+          </div> 
+          <div class="tab-pane fade" id="content-three" role="tabpanel" aria-labelledby="tab-three"> 
+         </div>
+        </div>
+    <br>
+    <div class="separator-container">
+        <div class="separator"></div>
+        <div class="separator-text">View More <span><i class="bi bi-arrow-up-right"></i></span></div>
+        <div class="separator"></div>
+    </div>
+    <br>
+    <h2 style="font-family:'times new roman'; text-align :center;">Gallery</h2>
+    <div class="container-fluid" style="background-color:#4364AC; height:1000px;">
+        <div class="row">
+         <div class="col-md-3">
+            <img src="jacfooterone.png" height="270px" width="250px" style="margin-top:45px; border-radius:15px;">
+         </div>
+         <div class="col-md-3">
+            <img src="jac footer2.png" height="270px" width="250px" style="margin-top:45px; border-radius:15px;">
+         </div>
+         <div class="col-md-3">
+            <img src="jacfooter3.png" height="270px" width="250px" style="margin-top:45px; border-radius:15px;">
+         </div>
+         <div class="col-md-3">
+            <img src="jacfooter4.png" height="270px" width="250px" style="margin-top:45px; border-radius:15px;">
+         </div>
+        </div>
+        <br>
+        <div class="row">
+         <div class="col-md-3">
+             <img src="jacfooterone.png" height="270px" width="250px" style="border-radius:15px;">
+          </div>
+         <div class="col-md-3">
+            <img src="jac footer2.png" height="270px" width="250px" style="border-radius:15px;">
+         </div>
+         <div class="col-md-3">
+            <img src="jacfooter3.png" height="270px" width="250px" style="border-radius:15px;">
+         </div>
+         <div class="col-md-3">
+            <img src="jacfooter4.png" height="270px" width="250px" style="border-radius:15px;">
+         </div>
+        </div>
+        <br>
+        <h2 style="font-family:'times new roman'; text-align :center; color:white;">Once Jaycees Always Jaycees </h2>
+        <p style="text-align:center; color:white; font-size :12px;">JCI Alumnni Club is a program initiated by JCI India with the objective to offer the opportunity to continue the former members to continue their associations with JCI India</p>
+        <br>
+        <button class="btn btn-c" target="_blank" style="display:block; margin:0 auto; width:150px;"><span style="margin-left:5px;">Join JAC</span> <i class="bi bi-arrow-right"></i></button>
+        <br>
+    </div>
+    <br>
+    <div class="container mt-4">
+        <div class="card" style="height : 250px; width : 1000px; margin-left:50px; border-radius:20px; margin-top:-250px;">
+          <div class="row">
+            <div class="col-md-3">
+             <h5 style="font-size:18px; margin-left:10px; margin-top:20px; margin-bottom:20px;">Navigate</h5>
+             <p style="font-size:12px;  margin-left:10px;">Home</p>
+             <p style="font-size:12px;  margin-left:10px;">About Us</p>
+             <p style="font-size:12px;  margin-left:10px;">Opportunities</p>
+             <p style="font-size:12px;  margin-left:10px;">Programs</p>
+             <p style="font-size:12px;  margin-left:10px;">Gallery</p>
+            </div>
+            <div class="col-md-3">
+             <h5 style="font-size:18px; margin-top:20px; margin-bottom:20px;">Membership</h5>
+             <p style="font-size:12px;">New Membership</p>
+             <p style="font-size:12px;">Renewal Membership</p>
+             <p style="font-size:12px;">Life Membership</p>
+            </div>
+            <div class="col-md-3">
+             <h5 style="font-size:18px; margin-top:20px; margin-bottom:20px;">Members</h5>
+             <p style="font-size:12px;">Honorary members</p>
+             <p style="font-size:12px;">Privilege members</p>
+            </div>
+            <div class="col-md-3">
+             <h5 style="font-size:18px; margin-top:20px; margin-bottom:20px;">Contact</h5>
+             <i class="bi bi-geo-alt"></i> <span style="font-size:12px; margin-top:20px; ">JCI India,803,3th Floor</span>
+             <span style="font-size:12px; margin-left:18px;">Windfall,Sahar Plaza,J.B.Nagar</span>
+             <span style="font-size:12px; margin-left:18px;">Chakala Metro Station,Andheri,</span>
+             <span style="font-size:12px; margin-left:18px;">Mumbai,Maharashtra 400059.</span>
+             <br>
+             <i class="bi bi-telephone"></i> <span style="font-size:12px;">Phone : +91 22 7111 7112</span>
+             <br>
+             <i class="bi bi-envelope"></i> <span  style="font-size:12px;">Email: <u>jac@jcindia.com</u></span>
+            </div>
+          </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <span class="mb-3 mb-md-0 text-body-secondary" style="font-size:12px;" >JCI India &copy; 2024 , All Rights Reserved , Designed By Olir Designs</span>
+          </div>
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-linkedin"></i></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-facebook"></i></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-instagram"></i></a></li>
+          </ul>
+        </footer>
+    </div>
+    <script>
+        const goTopBtn =document.querySelector('.go-top-btn');
+           window.addEventListener('scroll', checkHeight)
+           function checkHeight(){
+             if(window.scrollY > 200) {
+               goTopBtn.style.display = "flex"
+             } else {
+               goTopBtn.style.display = "none"
+             }
+           }
+           goTopBtn.addEventListener('click', () => {
+             window.scrollTo({
+               top: 0,
+               behaviour: "smooth"
+             })
+           })
+       
+       React
+       
+       Reply
+       
+       
+       
+       
+       
+       
+       </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
