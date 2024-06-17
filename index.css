@@ -162,6 +162,89 @@
     padding-left: 30px;
     padding-top: 10px;
 }
-.r2{
+.ca8{
     background-color: #F5F5F5;
+    height: 550px;
+    border-color: #F5F5F5;
+}
+.ca8 img{
+      padding-left: 80px;
+}
+.text2{
+    padding-top: 40px;
+    font-size: 12px;
+    padding-right: 50px;
+    justify-content: left;
+}
+.conf{
+    background-color: #4364AC;
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+}
+.conf img{
+    height: 260px;
+    width: 305px;
+    filter: grayscale(100%);
+    border-radius: 10px;
+    object-fit: cover;
+}
+.con{
+    color: white;
+}
+.con p{
+    font-size: 12px;
+    padding-top: 10px;
+}
+.con button{
+    margin-left: 500px;
+    width: 130px;
+    margin-top: 20px;
+}
+.con2{
+    margin-top: -160px;
+}
+.con2 .card{
+   margin: auto;
+   height: 230px;
+   width: 1000px;
+   border-radius: 20px;
+   padding: 15px 30px;
+}
+.con2 .nav-item{
+    font-size: 12px;
+}
+.ca9{
+    background-color: #F5F5F5;
+    height: 300px;
+    width: 900px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.ca9 img{
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    filter: grayscale(100%);
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 25px;
+}
+.ca9 p{
+    font-size: 12px;
+}
+.ca9 button{
+    font-size: 14px;
+    height: 40px;
+}
+.ca9 .btn2{
+    background-color: #5EBAA2;
+    color: white;
+    margin-left: 10px;
+}
+.icon3{
+    float: right;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
 }
